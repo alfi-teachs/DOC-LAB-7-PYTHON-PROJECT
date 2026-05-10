@@ -25,7 +25,7 @@ docker build -t pythonapp .
 ```
 6️⃣ Run Docker Container
 ```bash
-docker run -d -p 5000:5000 --name mypython
+docker run -d --name mypython pythonapp -p 5000:5000 pythonapp
 ```
 Explanation:
 
