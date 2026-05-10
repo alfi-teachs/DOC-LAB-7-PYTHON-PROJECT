@@ -1,1 +1,51 @@
 # DOC-LAB-7-PYTHON-PROJECT
+
+📁 Project Structure
+
+Create a folder named python-webapp
+
+Inside the folder create these files:
+
+python-webapp/
+│
+├── app.py
+├── requirements.txt
+└── Dockerfile
+
+1️⃣ Create app.py
+2️⃣ Create requirements.txt
+3️⃣ Create Dockerfile
+4️⃣ Open VS Code Terminal
+5️⃣ Build Docker Image
+```bash
+docker build -t pythonapp
+```
+6️⃣ Run Docker Container
+```bash
+docker run -d -p 5000:5000 --name
+```
+Explanation:
+
+-d → run in background
+
+-p 5000:5000 → connect local port to container port
+
+--name mypython → container name
+
+7️⃣ Open Website
+
+Open browser:
+
+```bash
+http://localhost:5000
+```
+You will see:
+
+Welcome to Python Docker Website
+Docker is working!
+```
+
+
+
+
+
