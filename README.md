@@ -8,8 +8,11 @@ Inside the folder create these files:
 
 python-webapp/
 │
+
 ├── app.py
+
 ├── requirements.txt
+
 └── Dockerfile
 
 1️⃣ Create app.py
@@ -42,8 +45,40 @@ http://localhost:5000
 You will see:
 
 Welcome to Python Docker Website
+
 Docker is working!
+
+8️⃣ Useful Docker Commands
+Check running containers
+```bash
+docker ps
 ```
+```
+docker stop <containerid>
+```
+Start container again
+```bash
+docker start mypython
+```
+Remove container
+```bash
+docker rm -f mypython
+```
+Check images
+```bash
+docker images
+```
+# What You Learned
+
+Created a Python Flask website
+
+Created Dockerfile
+
+Built Docker image
+
+Ran Docker container
+
+Accessed website in browser
 
 
 
