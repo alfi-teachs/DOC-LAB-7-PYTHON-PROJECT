@@ -25,7 +25,7 @@ docker build -t pythonapp .
 ```
 6️⃣ Run Docker Container
 ```bash
-docker run -d --name mypython -p 5000:5000 pythonapp
+docker run -d --name py-cont -p 5000:5000 pythonapp
 ```
 Explanation:
 
@@ -33,7 +33,7 @@ Explanation:
 
 -p 5000:5000 → connect container port to your PC
 
---name mypython → container name
+--name py-cont  → container name
 
 pythonapp → image name you created with docker build
 
