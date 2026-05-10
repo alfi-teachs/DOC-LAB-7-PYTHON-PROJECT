@@ -25,15 +25,17 @@ docker build -t pythonapp .
 ```
 6️⃣ Run Docker Container
 ```bash
-docker run -d --name mypython pythonapp -p 5000:5000 pythonapp
+docker run -d --name mypython -p 5000:5000 pythonapp
 ```
 Explanation:
 
 -d → run in background
 
--p 5000:5000 → connect local port to container port
+-p 5000:5000 → connect container port to your PC
 
 --name mypython → container name
+
+pythonapp → image name you created with docker build
 
 7️⃣ Open Website
 
