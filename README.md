@@ -21,7 +21,7 @@ python-webapp/
 4️⃣ Open VS Code Terminal
 5️⃣ Build Docker Image
 ```bash
-docker build -t pythonapp
+docker build -t pythonapp .
 ```
 6️⃣ Run Docker Container
 ```bash
